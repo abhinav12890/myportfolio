@@ -47,9 +47,9 @@ const about = () => {
                     <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
                         <div className="col-span-3 flex flex-col item-start justify-start xl:col-span-4 md:order-2  md:col-span-8">
                             <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">Biography</h2>
-                            <p className="font-medium">Hi, I'm Abhinav Kumar, a Full Stack Developer based in Delhi, India. With 4 years of experience, I'm passionate about creating innovative and user-centered digital experiences. </p>
+                            <p className="font-medium">Hi, I&apos;m Abhinav Kumar, a Full Stack Developer based in Delhi, India. With 4 years of experience, I&apos;m passionate about creating innovative and user-centered digital experiences. </p>
                             <p className=" my-4 font-medium">I specialize in technologies like React, Sass,NextJs,TailwindCSS and Firebase, and have successfully delivered projects like ICARE (a platform for patients to book appointments and track health) and Shirt Customize (allowing users to customize 3D shirts).</p>
-                            <p className="font-medium">I hold a Bachelor's degree in Engineering Technology and have published research papers on IoT and machine learning. Let's collaborate to create remarkable digital experiences.</p>
+                            <p className="font-medium">I hold a Bachelor&apos;s degree in Engineering Technology and have published research papers on IoT and machine learning. Let&apos;s collaborate to create remarkable digital experiences.</p>
                         </div>
                         <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8">
                             <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light" />
