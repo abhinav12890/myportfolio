@@ -33,10 +33,10 @@ const Experience = () => {
                 <motion.div style={{ scaleY: scrollYProgress }} className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light md:w-[2px] md:left-[30px] xs:md:left-[20px]" />
                 <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
                     <Details position="On-Campus Internship" company="Manav Rachna College"
-                        time="2022-Present" address="Sector – 43, Aravalli Hills, Delhi – Surajkund Road, Faridabad – 121004, (Haryana), India"
+                        time="Jan 2022- July 2021" address="Sector – 43, Aravalli Hills, Delhi – Surajkund Road, Faridabad – 121004, (Haryana), India"
                         work="Worked on a small scale projects using Html,Css,Javascript,Api,Php,Bootstrap. Worked in teams and individual projects to know more about web development." />
                     <Details position="Software Engineer" company="Pan India Consultants Pvt. Ltd."
-                        time="2023-Present" address="105, Phase IV, Udyog Vihar, Gurugram - 122015, Haryana, India"
+                        time="Feb 2023-June 2023" address="105, Phase IV, Udyog Vihar, Gurugram - 122015, Haryana, India"
                         work="Worked on Company's official website with Reactjs and Sass.Used Strapi CDN for the data management.Worked with designing team for designing front end of the website." />
                 </ul>
             </div>

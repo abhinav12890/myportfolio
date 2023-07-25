@@ -32,18 +32,11 @@ const Education = () => {
             <div ref={ref} className="w-[75%] mx-auto relative lg:w-[90%] md:w-full">
                 <motion.div style={{ scaleY: scrollYProgress }} className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light md:w-[2px] md:left-[30px] xs:md:left-[20px]" />
                 <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
-                    <Details type="Bachelor Of Science In Computer Science"
-                        time="2016-2020" place="Massachusetts Institute Of Technology (MIT)"
-                        info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                        Intelligence."/>
-                    <Details type="Bachelor Of Science In Computer Science"
-                        time="2016-2020" place="Massachusetts Institute Of Technology (MIT)"
-                        info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                        Intelligence."/>
+                    <Details type="Higher Secondary School" time="2018-2019" place="Titiksha Public School"
+                        info="I completed my 12th grade in the science stream with a focus on non-medical subjects (Physics, Chemistry, and Mathematics) at Titiksha Public School. Additionally, I opted for Engineering Graphics as an additional subject during that time." />
                     <Details type="Bachelor Of Electronics and Communication Engineering"
                         time="2019-2023" place="Manav Rachna International Institute of Research and Studies College"
-                        info="Relevant courses included Data Structures and Algorithms,Electronics and Communication Engineering, and Artificial 
-                        Intelligence."/>
+                        info="I pursued a Bachelor's degree in Electronics and Communication Engineering from 2019 to 2023 at Manav Rachna International Institute of Research and Studies College. Throughout my studies, I gained knowledge in various areas such as electronics, communication, and also studied programming languages like Java and Python. Additionally, I learned about Programming for Problem Solving and web development." />
                 </ul>
             </div>
         </div>
