@@ -3,9 +3,14 @@ import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import article1 from "../../public/images/articles/pagination component in reactjs.jpg";
+import article1 from "../../public/images/articles/mlresearch.png";
+import article2 from "../../public/images/articles/iotresearch.png";
 import { motion, useMotionValue } from "framer-motion";
-import article3 from "../../public/images/articles/create modal component in react using react portals.png";
+import article3 from "../../public/images/articles/htmlcert.png";
+import article4 from "../../public/images/articles/csscert.png";
+import article5 from "../../public/images/articles/pythoncert.png";
+import article6 from "../../public/images/articles/pydatacert.png";
+import article7 from "../../public/images/articles/webdevcert.png";
 import { useRef } from "react";
 import TransitionEffect from "@/components/TransitionEffect";
 const FramerImage = motion(Image);
@@ -79,58 +84,62 @@ const articles = () => {
                 <title>Abhinav | Articles Page </title>
                 <meta name="description" content="my description" />
             </Head>
-            <TransitionEffect/>
+            <TransitionEffect />
             <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light">
                 <Layout className="pt-16">
                     <AnimatedText text="Words Can Change The World!" className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl" />
                     <ul className="grid grid-cols-2 gap-16 md:grid-cols-1 lg:gap-8 md:gap-y-16">
                         <FeaturedArticle
-                            title="Build A Custom Pagination Component In Reactjs From Scratch"
-                            summary="Learn how to build a custom pagination component in ReactJS from scratch. 
-                    Follow this step-by-step guide to integrate Pagination component in your ReactJS project."
+                            title="MACHINE LEARNING AND ITS APPLICATION IN TEMPERATURE MONITORING"
+                            summary="Machine Learning is going to change this present reality objects into wise virtual
+                            items, which can think like a human and performs certain set of instructions based on
+                            the given data by the sensors along with IoT (Internet of Things)."
                             time="9 min read"
-                            link="/"
+                            link="https://drive.google.com/drive/folders/1ob2VXs115MmxxtfOJP1ZAGsrvS66Dc9T?usp=sharing"
                             img={article1}
                         />
                         <FeaturedArticle
-                            title="Build A Custom Pagination Component In Reactjs From Scratch"
-                            summary="Learn how to build a custom pagination component in ReactJS from scratch. 
-                    Follow this step-by-step guide to integrate Pagination component in your ReactJS project."
+                            title="IOT SECURITY WITH BLOCKCHAIN"
+                            summary="Internet of Things (IoT) plays a very vital role in almost every field of technology. Its key elements of security are very much crucial elements which are to be maintained as it is used universally."
                             time="9 min read"
-                            link="/"
-                            img={article1}
+                            link="https://drive.google.com/drive/folders/1sipsjLCpUJJy_8h67V7-8eHCZJqdouAM?usp=drive_link"
+                            img={article2}
                         />
                     </ul>
-                    <h2 className="font-bold text-4xl w-full text-center my-16 mt-32">All Articles</h2>
+                    <h2 className="font-bold text-4xl w-full text-center my-16 mt-32">My Certificates</h2>
                     <ul>
                         <Article
-                            title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling
-                        "
-                            img={article3}
-                            date="5/2/2023"
-                            link="/"
+                            title="Python Basics for Data Science"
+                            img={article6}
+                            date="19/03/2022"
+                            link="https://drive.google.com/drive/folders/1VgPT14re1KNFiNmXtTqu3R6AgEOchG0b?usp=sharing"
                         />
                         <Article
-                            title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling
-                        "
-                            img={article3}
-                            date="5/2/2023"
-                            link="/"
+                            title="Web Development"
+                            img={article7}
+                            date="20/02/2021"
+                            link="https://drive.google.com/drive/folders/1VgPT14re1KNFiNmXtTqu3R6AgEOchG0b?usp=sharing"
+                        />
+
+                        <Article
+                            title="CSS3"
+                            img={article4}
+                            date="10/10/2020"
+                            link="https://drive.google.com/drive/folders/1VgPT14re1KNFiNmXtTqu3R6AgEOchG0b?usp=sharing"
                         />
                         <Article
-                            title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling
-                        "
-                            img={article3}
-                            date="5/2/2023"
-                            link="/"
+                            title="Python"
+                            img={article5}
+                            date="03/09/2020"
+                            link="https://drive.google.com/drive/folders/1VgPT14re1KNFiNmXtTqu3R6AgEOchG0b?usp=sharing"
                         />
                         <Article
-                            title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling
-                        "
+                            title="Html5"
                             img={article3}
-                            date="5/2/2023"
-                            link="/"
+                            date="31/08/2020"
+                            link="https://drive.google.com/drive/folders/1VgPT14re1KNFiNmXtTqu3R6AgEOchG0b?usp=sharing"
                         />
+
                     </ul>
                 </Layout>
             </main>
