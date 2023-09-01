@@ -89,7 +89,7 @@ const Projects = () => {
                                 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
                     It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
                     local currency."
-                                link="https://abhi-airbnb-clone.vercel.app/"
+                                link="https://getflat.vercel.app/"
                                 type="Featured Project"
                                 github="https://github.com/abhinav12890/airbnb_clone"
                             />
@@ -97,14 +97,14 @@ const Projects = () => {
                         <div className="col-span-6 sm:col-span-12"><Project
                             title="Spotify Clone"
                             img={spotifyclone}
-                            link="https://spotify-clone-9o7qum0nz-abhinav12890.vercel.app/"
+                            link="https://mymusical-way.vercel.app/"
                             type="Project"
                             github="https://github.com/abhinav12890/spotify-clone"
                         /></div>
                         <div className="col-span-6 sm:col-span-12"><Project
                             title="Twitter Clone"
                             img={twitter}
-                            link="https://twitter-clone-six-henna.vercel.app/"
+                            link="https://pegion.vercel.app/"
                             type="Project"
                             github="https://github.com/abhinav12890/twitter-clone"
                         /></div>
