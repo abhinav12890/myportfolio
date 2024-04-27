@@ -1,7 +1,7 @@
 import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
-import profilePic from "../../public/images/profile/comp.png"
+import profilePic from "../../public/images/profile/pylaptop.png"
 import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg"
 import AnimatedText from '@/components/AnimatedText'
 import { TypeAnimation } from 'react-type-animation';
@@ -31,8 +31,10 @@ export default function Home() {
                 className='text-3xl font-secondary font-semibold md:text-2xl uppercase leading-[1] inline-block w-full h-auto'>
                 <span className='text-dark dark:text-light mr-4'>I am a</span>
                 <TypeAnimation sequence={[
-                  'Web Developer', 2000,
+                  'Full Stack Developer', 2000,
+                  'Quality Analyst', 2000,
                   'ECE Engineer', 2000,
+                  'Data Analyst', 2000,
                   'Software Developer', 2000,
                 ]}
                   speed={50}
@@ -41,19 +43,18 @@ export default function Home() {
                   repeat={Infinity}
                 />
               </motion.div>
-              <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>I am a versatile full stack developer with expertise in web and software development. With a unique background as an ECE engineer, I bridge the gap between hardware and software. Visit my portfolio to explore my projects and let&apos;s bring your ideas to life. Thank you!
-              </p>
+              <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>Versatile full stack developer and quality analyst, bridging hardware and software. Specializing in web development, data analysis and software development, I craft innovative solutions and analysis using React, NextJs, TailwindCSS, and Python. Visit my portfolio to explore projects and bring your ideas to life!</p>
               <div className="flex items-center self-start mt-2 lg:self-center">
-                <Link href='/Resume(Abhinav)_FullStack.pdf' target={'_blank'} className='flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light md:p-2 md:px-4 md:text-base' download={true}>Resume <LinkArrow className={"w-6 ml-1"} /> </Link>
+                <Link href='/AbhinavResume(April).pdf' target={'_blank'} className='flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light md:p-2 md:px-4 md:text-base' download={true}>Resume <LinkArrow className={"w-6 ml-1"} /> </Link>
                 <Link className='ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base' href='mailto:abhinavkumarpal890@gmail.com' target={'_blank'}>Contact</Link>
               </div>
             </div>
           </div>
         </Layout>
-        <HireMe />
-        <div className="absolute right-8 bottom-8 inline-block w-24 md:hidden">
+        {/* <HireMe /> */}
+        {/* <div className="absolute right-8 bottom-8 inline-block w-24 md:hidden">
           <Image src={lightBulb} alt='portfolio' className='w-full h-auto' />
-        </div>
+        </div> */}
       </main>
     </>
   )

@@ -40,25 +40,26 @@ const about = () => {
                 <title>Abhinav | About Page</title>
                 <meta name="description" content="my description" />
             </Head>
-            <TransitionEffect/>
+            <TransitionEffect />
             <main className="flex w-full flex-col items-center justify-center dark:text-light">
                 <Layout className="pt-16">
                     <AnimatedText text="Igniting Vision, Driving Growth." className="mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8" />
                     <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
                         <div className="col-span-3 flex flex-col item-start justify-start xl:col-span-4 md:order-2  md:col-span-8">
                             <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">Biography</h2>
-                            <p className="font-medium">Hi, I&apos;m Abhinav Kumar, a Full Stack Developer based in Delhi, India. With 4 years of experience, I&apos;m passionate about creating innovative and user-centered digital experiences. </p>
-                            <p className=" my-4 font-medium">I specialize in technologies like React, Sass,NextJs,TailwindCSS and Firebase, and have successfully delivered projects like ICARE (a platform for patients to book appointments and track health) and Shirt Customize (allowing users to customize 3D shirts).</p>
-                            <p className="font-medium">I hold a Bachelor&apos;s degree in Engineering Technology and have published research papers on IoT and machine learning. Let&apos;s collaborate to create remarkable digital experiences.</p>
+                            <p class="font-medium">Hi, I&apos;m Abhinav Kumar, a Full Stack Developer and Quality Analyst based in Delhi, India. With a diverse background spanning 1 year, I bring a unique blend of skills to the table.</p>
+                            <p class="my-4 font-medium">As a Full Stack Developer, I specialize in technologies like React, Sass, NextJs, TailwindCSS, and Firebase. Notable projects include ICARE, enabling patients to book appointments and monitor health, Shirt Customize for 3D shirt customization, and Corporate Website development.</p>
+                            <p class="my-4 font-medium">In my role as a Quality Analyst, I excel in delivering precise data annotation services for Machine Learning projects. I&apos;ve contributed to projects for companies like Samsung and Air Arabia, optimizing data annotation strategies and providing valuable insights.</p>
+                            <p class="font-medium">With a Bachelor&apos;s degree in Engineering Technology and a track record of impactful contributions in both development and quality analysis, I&apos;m poised to tackle complex challenges and collaborate on creating remarkable digital experiences.</p>
                         </div>
                         <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8">
                             <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light" />
                             <Image src={profilePic} alt="portfolio" className="w-full h-auto rounded-2xl" priority sizes='(max-width:768px)100vw,(max-width:1200px)50vw,33vw' />
                         </div>
                         <div className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3">
-                            <div className="flex flex-col items-end justify-center xl:items-center"><span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl"> <AnimatedNumbers value={15} />+</span> <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm ">Skills Aquired</h2></div>
-                            <div className="flex flex-col items-end justify-center xl:items-center"><span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl"> <AnimatedNumbers value={6} />+</span> <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm ">Projects Completed</h2></div>
-                            <div className="flex flex-col items-end justify-center xl:items-center"><span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl"> <AnimatedNumbers value={2} />+</span> <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm ">years of experience</h2></div>
+                            <div className="flex flex-col items-end justify-center xl:items-center"><span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl"> <AnimatedNumbers value={30} />+</span> <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm ">Skills Aquired</h2></div>
+                            <div className="flex flex-col items-end justify-center xl:items-center"><span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl"> <AnimatedNumbers value={10} />+</span> <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm ">Projects Completed</h2></div>
+                            <div className="flex flex-col items-end justify-center xl:items-center"><span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl"> <AnimatedNumbers value={1} />+</span> <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm ">years of experience</h2></div>
                         </div>
                     </div>
                     <Skills />

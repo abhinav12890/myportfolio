@@ -38,6 +38,9 @@ const Experience = () => {
                     <Details position="Software Engineer" company="Pan India Consultants Pvt. Ltd."
                         time="Feb 2023-June 2023" address="105, Phase IV, Udyog Vihar, Gurugram - 122015, Haryana, India"
                         work="Worked on Company's official website with Reactjs and Sass.Used Strapi CDN for the data management.Worked with designing team for designing front end of the website." />
+                    <Details position="Quality Analyst" company="Zuru-Sprinklr"
+                        time="Dec 2023-Present" address="Work From Home"
+                        work="Validated, created, and annotated datasets,Created validation Reports, Formulated checklists and test cases to enhance QA processes, formulating QA processes, and optimizing strategies for Sprinklr's ML projects." />
                 </ul>
             </div>
         </div>

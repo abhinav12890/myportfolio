@@ -11,6 +11,17 @@ import article4 from "../../public/images/articles/csscert.png";
 import article5 from "../../public/images/articles/pythoncert.png";
 import article6 from "../../public/images/articles/pydatacert.png";
 import article7 from "../../public/images/articles/webdevcert.png";
+import article8 from "../../public/images/articles/arcert.png";
+import article9 from "../../public/images/articles/microcert.png";
+import article10 from "../../public/images/articles/powerbicert.png";
+import article11 from "../../public/images/articles/mysql.png";
+import article12 from "../../public/images/articles/gspy.png";
+import article13 from "../../public/images/articles/exceltrickcert.png";
+import article14 from "../../public/images/articles/excelcert3.png";
+import article15 from "../../public/images/articles/excelcert2.png";
+import article16 from "../../public/images/articles/excelcert.png";
+import article17 from "../../public/images/articles/dbms2.png";
+import article18 from "../../public/images/articles/dataany.png";
 import { useRef } from "react";
 import TransitionEffect from "@/components/TransitionEffect";
 const FramerImage = motion(Image);
@@ -108,6 +119,7 @@ const articles = () => {
                     </ul>
                     <h2 className="font-bold text-4xl w-full text-center my-16 mt-32">My Certificates</h2>
                     <ul>
+                    
                         <Article
                             title="Python Basics for Data Science"
                             img={article6}
@@ -139,7 +151,72 @@ const articles = () => {
                             date="31/08/2020"
                             link="https://drive.google.com/drive/folders/1VgPT14re1KNFiNmXtTqu3R6AgEOchG0b?usp=sharing"
                         />
-
+                        <Article
+                            title="Spark AR"
+                            img={article8}
+                            date="19/03/2022"
+                            link="https://drive.google.com/drive/folders/1VgPT14re1KNFiNmXtTqu3R6AgEOchG0b?usp=sharing"
+                        />
+                        <Article
+                            title="Micosoft Learn"
+                            img={article9}
+                            date="19/03/2023"
+                            link="https://drive.google.com/drive/folders/1VgPT14re1KNFiNmXtTqu3R6AgEOchG0b?usp=sharing"
+                        />
+                        <Article
+                            title="Power Bi"
+                            img={article10}
+                            date="06/01/2024"
+                            link="https://drive.google.com/drive/folders/1VgPT14re1KNFiNmXtTqu3R6AgEOchG0b?usp=sharing"
+                        />
+                        <Article
+                            title="My SQL"
+                            img={article11}
+                            date="21/01/2024"
+                            link="https://drive.google.com/drive/folders/1VgPT14re1KNFiNmXtTqu3R6AgEOchG0b?usp=sharing"
+                        />
+                        <Article
+                            title="Python"
+                            img={article12}
+                            date="21/01/2024"
+                            link="https://drive.google.com/drive/folders/1VgPT14re1KNFiNmXtTqu3R6AgEOchG0b?usp=sharing"
+                        />
+                        <Article
+                            title="Excel 1"
+                            img={article13}
+                            date="21/01/2024"
+                            link="https://drive.google.com/drive/folders/1VgPT14re1KNFiNmXtTqu3R6AgEOchG0b?usp=sharing"
+                        />
+                        <Article
+                            title="Excel 2"
+                            img={article14}
+                            date="05/01/2024"
+                            link="https://drive.google.com/drive/folders/1VgPT14re1KNFiNmXtTqu3R6AgEOchG0b?usp=sharing"
+                        />
+                        <Article
+                            title="Excel 3"
+                            img={article15}
+                            date="06/01/2024"
+                            link="https://drive.google.com/drive/folders/1VgPT14re1KNFiNmXtTqu3R6AgEOchG0b?usp=sharing"
+                        />
+                        <Article
+                            title="Excel 4"
+                            img={article16}
+                            date="16/01/2024"
+                            link="https://drive.google.com/drive/folders/1VgPT14re1KNFiNmXtTqu3R6AgEOchG0b?usp=sharing"
+                        />
+                        <Article
+                            title="Data Base Management System"
+                            img={article17}
+                            date="21/01/2024"
+                            link="https://drive.google.com/drive/folders/1VgPT14re1KNFiNmXtTqu3R6AgEOchG0b?usp=sharing"
+                        />
+                        <Article
+                            title="Data Analytics"
+                            img={article18}
+                            date="05/01/2024"
+                            link="https://drive.google.com/drive/folders/1VgPT14re1KNFiNmXtTqu3R6AgEOchG0b?usp=sharing"
+                        />
                     </ul>
                 </Layout>
             </main>
