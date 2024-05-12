@@ -51,7 +51,7 @@ export default function Home() {
             </div>
           </div>
         </Layout>
-        {/* <HireMe /> */}
+        <HireMe />
         {/* <div className="absolute right-8 bottom-8 inline-block w-24 md:hidden">
           <Image src={lightBulb} alt='portfolio' className='w-full h-auto' />
         </div> */}
