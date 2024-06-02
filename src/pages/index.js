@@ -45,7 +45,7 @@ export default function Home() {
               </motion.div>
               <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>Versatile full stack developer and quality analyst, bridging hardware and software. Specializing in web development, data analysis and software development, I craft innovative solutions and analysis using React, NextJs, TailwindCSS, and Python. Visit my portfolio to explore projects and bring your ideas to life!</p>
               <div className="flex items-center self-start mt-2 lg:self-center">
-                <Link href='/AbhinavResume(April).pdf' target={'_blank'} className='flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light md:p-2 md:px-4 md:text-base' download={true}>Resume <LinkArrow className={"w-6 ml-1"} /> </Link>
+                <Link href='/AbhinavResume(May).pdf' target={'_blank'} className='flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light md:p-2 md:px-4 md:text-base' download={true}>Resume <LinkArrow className={"w-6 ml-1"} /> </Link>
                 <Link className='ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base' href='mailto:abhinavkumarpal890@gmail.com' target={'_blank'}>Contact</Link>
               </div>
             </div>
